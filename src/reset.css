@@ -1,0 +1,20 @@
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', 'Arial', sans-serif;
+}
+body {
+    min-width: 330px;
+    height: auto;
+    background-color: rgb(156,156,156);
+}
+body::-webkit-scrollbar{
+	width: 10px;
+	background-color: rgba(118,118,118, 0.5);
+}
+body::-webkit-scrollbar-thumb {
+    height: 30px;
+    background-color: rgba(25,140,140, 0.8);
+}

@@ -1,0 +1,38 @@
+.boxsearch--visible {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.boxsearch--visible p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.ingredient {
+  width: 50%;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ingredient input {
+    width: 80%;
+    height: 30px;
+    font-size: 14px;
+    margin-right: 5px;
+    border: 1px solid rgb(170,170,170);
+    background-color: white;
+    border-radius: 3px;
+}
+
+.ingredient button {
+    border-radius: 6px;
+    background-color: rgb(204,24,30);
+    background-image: url('../../img/icon_search.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #14182f;
+}

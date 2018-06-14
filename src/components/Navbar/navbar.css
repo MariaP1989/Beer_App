@@ -1,0 +1,54 @@
+/*navigation bar style*/
+.navbar {
+    height: 12vh;
+    min-width: 320px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(25,140,140, 0.8);
+    z-index: 10;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*style for logo BeerGuru*/
+.navbar__logo {
+    height: 12vh;
+    margin-right: 2vw;
+}
+.logo__text {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    position: relative;
+    height: 9.5vh;
+    margin-top: 1vh;
+}
+.logo__text span:first-of-type, .logo__text span:last-of-type {
+    line-height: 8.5vh;
+    font-size: 8.5vh;
+}
+.logo__text span:nth-of-type(2){
+    position: absolute;
+    top: 0;
+}
+.logo__text span:nth-of-type(2), .logo__text span:nth-of-type(3) {
+    line-height: 4.5vh;
+    font-size: 4vh;
+}
+
+.logo__text span:nth-of-type(3), .logo__text span:nth-of-type(4) {
+    color:rgb(255,141,64);
+    text-shadow: 0 0 2px #000000;
+}
+/*style for icons - buttons for navigation*/
+.navbar__icon-dinner {
+    height: 10vh;
+    width: 10vh;
+    margin-right: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url('../../icons/svg/002-cutlery.svg');
+}

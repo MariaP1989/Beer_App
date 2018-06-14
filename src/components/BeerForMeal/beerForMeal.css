@@ -1,0 +1,10 @@
+.beer-container__food {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
